@@ -6,13 +6,13 @@ import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent //component,directives,pipes
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, //include other modules
     AppRoutingModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [],//specify services
+  bootstrap: [AppComponent] //components which can be called in main html
 })
 export class AppModule { }
