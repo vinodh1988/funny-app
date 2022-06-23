@@ -1,4 +1,8 @@
 h1{
-    color: green;
-    background-color: yellow;
+    color: darkblue;
+    background-color: lightblue;
+}
+
+#main-body{
+    overflow: hidden;
 }
