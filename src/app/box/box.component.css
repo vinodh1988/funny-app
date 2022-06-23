@@ -1,0 +1,9 @@
+.box{
+    height: 300px;
+    width: 300px;
+    float:left;
+    background-color: lightblue;
+    color: darkblue;
+    font-family: comic sans MS;
+    margin: 20px;
+}
