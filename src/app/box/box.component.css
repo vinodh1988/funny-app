@@ -21,3 +21,12 @@
 h3{
     padding-left: 30px;
 }
+
+button{
+    width: 150px;
+    padding: 10px;
+    font-family: arial, sans-serif;
+    background-color: darkgreen;
+    color: yellow;
+    border: none;
+}

@@ -10,6 +10,7 @@ export class AppComponent {
   developers:string[]=["Johnson","Mahesh","Vijay","Roger","Arun"];
   font='Courier';
   titles=["Fruits","Vegetables","Spices","Electronics"]
+  buttonTitle=["Fruit More..","Veg More..","Spices More...","Electronic More..."]
   items:string[][]=[
     ["Oranges","Apples","Bananas","JackFruit","Cherry"],
     ["Potato","Tomato","Brinjal","Onion"],

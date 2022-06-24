@@ -9,6 +9,7 @@ export class BoxComponent implements OnInit {
 theme="theme2"
 @Input() title:string=""
 @Input("items") list:string[]=[];
+@Input() buttonText:string="";
   constructor() { }
 
   ngOnInit(): void {

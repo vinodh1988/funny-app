@@ -13,7 +13,11 @@
     <li *ngFor="let x of developers">{{x}}</li>
 </ul>
 <div id="main-body">
-<app-box *ngFor="let x of titles;let y=index" [title]="x" [items]="items[y]"></app-box>
+<app-box *ngFor="let x of titles;let y=index" 
+[title]="x"
+ [items]="items[y]"
+ [buttonText]="buttonTitle[y]">
+</app-box>
 
 </div>
 <app-footer></app-footer>
