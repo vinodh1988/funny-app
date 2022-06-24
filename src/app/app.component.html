@@ -1,5 +1,14 @@
+<div id="page" [ngStyle]="{fontFamily: font}">
 <h1>First Angular app</h1>
 <h3><u>Programmers</u></h3>
+<select [(ngModel)]="font">
+    <option>Arial</option>
+    <option>Comic Sans MS</option>
+    <option>Consolas</option>
+    <option>Courier</option>
+    <option>Forte</option>
+    <option>Agency FB</option>
+</select>
 <ul>
     <li *ngFor="let x of developers">{{x}}</li>
 </ul>
@@ -11,3 +20,5 @@
 <app-box></app-box>
 </div>
 <app-footer></app-footer>
+
+</div>

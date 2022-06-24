@@ -53,3 +53,13 @@ some output directives include: click, doubleclick, keyup,keydown,mouseover
 
 Generally upon an event it calls the function which is mentioned as
 value in the right
+
+## Input output Directives
+
+Work as both input and output directives
+
+it is enclosed with in [()]
+
+there is only one input output directive called as ngModel
+
+if you want to use it you have to import FormsModule

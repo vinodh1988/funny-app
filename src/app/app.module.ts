@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -14,7 +15,8 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule, //include other modules
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],//specify services
   bootstrap: [AppComponent] //components which can be called in main html
