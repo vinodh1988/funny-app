@@ -23,3 +23,33 @@ or it will hide or unhide html elements.
 All structural directives are prefixed with *
 
 Some inbuilt structural directives : ngFor,ngIf, ngSwitch
+
+
+## Attribute directives
+
+Attributes Diretives change the behavior of the target elements [data, css style...]
+
+there are three kinds of attribute directives 
+
+* input Directives
+* output directives
+* Input Output directives
+
+### Input directives
+
+Input Directive take input the variable specified in the right
+all input directives usually wrapped with []
+
+some inbuilt input directives include : ngClass, ngStyle, routerLink
+
+### Output directives
+
+Output Directives are event listener they listen for particular event
+on the target element of
+
+all output directives are enclosed within ()
+
+some output directives include: click, doubleclick, keyup,keydown,mouseover
+
+Generally upon an event it calls the function which is mentioned as
+value in the right

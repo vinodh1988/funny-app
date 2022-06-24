@@ -1,9 +1,19 @@
-.box{
+.theme1{
     height: 300px;
     width: 300px;
     float:left;
     background-color: lightblue;
     color: darkblue;
+    font-family: comic sans MS;
+    margin: 20px;
+}
+
+.theme2{
+    height: 300px;
+    width: 300px;
+    float:left;
+    background-color: rgb(179, 230, 173);
+    color: rgb(9, 72, 7);
     font-family: comic sans MS;
     margin: 20px;
 }
