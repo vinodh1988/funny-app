@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'first-angular-app';
+  developers:string[]=["Johnson","Mahesh","Vijay","Roger","Arun"];
 }
