@@ -1,4 +1,8 @@
 <div [ngClass]="theme" (click)="themeChange()">
-
+<h3>{{title}}</h3>
+<hr/>
+<ul>
+   <li *ngFor="let x of list">{{x}}</li>
+</ul>
 </div>
 

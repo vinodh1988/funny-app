@@ -13,11 +13,8 @@
     <li *ngFor="let x of developers">{{x}}</li>
 </ul>
 <div id="main-body">
-<app-box></app-box>
-<app-box></app-box>
-<app-box></app-box>
-<app-box></app-box>
-<app-box></app-box>
+<app-box *ngFor="let x of titles;let y=index" [title]="x" [items]="items[y]"></app-box>
+
 </div>
 <app-footer></app-footer>
 
