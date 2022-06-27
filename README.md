@@ -63,3 +63,30 @@ it is enclosed with in [()]
 there is only one input output directive called as ngModel
 
 if you want to use it you have to import FormsModule
+
+## Input and Ouput
+
+### Sending data from parent to child
+
+if you want to send some data to child
+
+the child component need to declare an input element, for this we use 
+a decorator call input
+
+after decorating with @Input the element will behave as input directive
+
+but this input directive will be only applicable for the current components
+in which it is created
+
+## Output 
+
+## Communicating from child to parent
+
+@Output is usually decorated to a variable which of type 
+EventEmitter
+
+Usually this variable emits data when even an even occurs
+
+this variable will behave as an output directive and the target
+would wait until the event occurs and calls the function mentioned
+in the right

@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-box',
@@ -11,6 +11,8 @@ theme="theme2"
 @Input() title:string=""
 @Input("items") list:string[]=[];
 @Input() buttonText:string="";
+@Output() selectedItem:EventEmitter<string>=new EventEmitter<string>();
+
   constructor() { }
 
   ngOnInit(): void {
@@ -18,5 +20,9 @@ theme="theme2"
 
   themeChange():void{
     this.theme= this.theme=="theme1"? "theme2":"theme1";
+  }
+
+  handleClick(data:string):void{
+    this.selectedItem.emit(data)
   }
 }

@@ -2,8 +2,8 @@
 <h3>{{title}}</h3>
 <hr/>
 <ul>
-   <li *ngFor="let x of list">{{x}}</li>
+   <li *ngFor="let x of list"  (click)="handleClick(x)">{{x}}</li>
 </ul>
-<button>{{buttonText}}</button>
+<button >{{buttonText}}</button>
 </div>
 

@@ -1,5 +1,6 @@
 <div id="page" [ngStyle]="{fontFamily: font}">
 <h1>First Angular app</h1>
+<h3 >{{message}}</h3>
 <h3><u>Programmers</u></h3>
 <select [(ngModel)]="font">
     <option>Arial</option>
@@ -17,7 +18,8 @@
 [title]="x"
  [items]="items[y]"
  [buttonText]="buttonTitle[y]"
- [bgcolor]="bgcolors[y]">
+ [bgcolor]="bgcolors[y]"
+ (selectedItem)="receiveData($event)">
 </app-box>
 
 </div>

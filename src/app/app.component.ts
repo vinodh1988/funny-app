@@ -12,6 +12,7 @@ export class AppComponent {
   titles=["Fruits","Vegetables","Spices","Electronics"]
   buttonTitle=["Fruit More..","Veg More..","Spices More...","Electronic More..."]
   bgcolors=["lightblue","tomato","lightgreen","yellow"];
+  message:string="NO MESSAGE YET"
 
   items:string[][]=[
     ["Oranges","Apples","Bananas","JackFruit","Cherry"],
@@ -19,4 +20,8 @@ export class AppComponent {
     ["Cinnamon","Turmeric","Cloves"],
     ["Pendrive","Harddrive","Laptop"]
   ]
+
+  receiveData(data:any):void{
+    this.message="The user has selected "+data
+  }
 }
