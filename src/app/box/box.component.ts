@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class BoxComponent implements OnInit {
 theme="theme2"
+@Input() bgcolor="lightgreen"
 @Input() title:string=""
 @Input("items") list:string[]=[];
 @Input() buttonText:string="";

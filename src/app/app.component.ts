@@ -11,6 +11,8 @@ export class AppComponent {
   font='Courier';
   titles=["Fruits","Vegetables","Spices","Electronics"]
   buttonTitle=["Fruit More..","Veg More..","Spices More...","Electronic More..."]
+  bgcolors=["lightblue","tomato","lightgreen","yellow"];
+
   items:string[][]=[
     ["Oranges","Apples","Bananas","JackFruit","Cherry"],
     ["Potato","Tomato","Brinjal","Onion"],

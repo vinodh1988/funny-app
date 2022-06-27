@@ -16,7 +16,8 @@
 <app-box *ngFor="let x of titles;let y=index" 
 [title]="x"
  [items]="items[y]"
- [buttonText]="buttonTitle[y]">
+ [buttonText]="buttonTitle[y]"
+ [bgcolor]="bgcolors[y]">
 </app-box>
 
 </div>
